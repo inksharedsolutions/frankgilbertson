@@ -46,7 +46,7 @@ const ATB = (props)=>{
                                     `,
                                     
                                     ebooks:{
-                                        stratton : 'https://www.stratton-press.com/books/wasted-youth/',
+                                        stratton : '',
                                         barnes: 'https://www.barnesandnoble.com/w/wasted-youth-frank-gilbertson/1008619329?ean=9781643458861',
                                         amazon :'https://www.amazon.com/Wasted-Youth-Frank-Gilbertson-ebook/dp/B08FPCD5YM/ref=sr_1_1?dchild=1&keywords=9781643458861&qid=1597777519&sr=8-1', 
                                     },
@@ -57,6 +57,7 @@ const ATB = (props)=>{
                                     }
                                 }}
                             />
+			    {/*Stratton Link: https://www.stratton-press.com/books/wasted-youth/*/}
                             <div className="commentSection" >
                                 <DiscussionEmbed {...disqusConfig} />
                             </div>
